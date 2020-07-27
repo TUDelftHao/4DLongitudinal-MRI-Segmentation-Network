@@ -1,5 +1,6 @@
 # 4D Longitudinal Segmentation of Brain Tissues and Glioma
 ![Pytorch](https://img.shields.io/badge/Implemented%20in-Pytorch-red.svg) <br>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Background
 
@@ -43,11 +44,11 @@ The intermediate-connection strategy with 3D DC U-Net provides best accuracy res
 <div align=center><img width=75% src="/images/longitudinalcomp.png"/></div>
 
 ### Influence of longitudinal information on segmentation accuracy
-I evaluated the influence of longitudinal information on segmentation accuracy by comparing the result with its CNN backbone. It seems that the temporal information leads to limited improvement.
+I evaluated the influence of longitudinal information on segmentation accuracy by comparing the result with its CNN backbone. It seems that the temporal information leads to marginal improvement.
 <div align=center><img width=75% src="/images/DCCNNvsRNN.png"/></div>
 
 ### Influence of longitudinal information on segmentation consistency
-The results demostrate that longitudinal segmentation provides highest mean TMR, but the transformation stability is not always better than CNN backbone.
+The results of two example patients demostrate that longitudinal segmentation provides highest mean TMR, but the transformation stability is not always better than CNN backbone.
 <div align=center><img width=75% src="/images/transition_dev_EGD-0125.png"/></div>
 <div align=center><img width=75% src="/images/transition_dev_EGD-0505.png"/></div>
 
