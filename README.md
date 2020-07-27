@@ -1,6 +1,5 @@
 # 4D Longitudinal Segmentation of Brain Tissues and Glioma
-![Pytorch](https://img.shields.io/badge/Implemented%20in-Pytorch-red.svg) <br>
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Pytorch](https://img.shields.io/badge/Implemented%20in-Pytorch-red.svg) <br> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Background
 
