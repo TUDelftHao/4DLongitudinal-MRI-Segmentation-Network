@@ -1,0 +1,29 @@
+PATH:
+  data_root: '/projects/0/glassim/EGD-PROCESSED'
+  #data_root: '../image/'
+  model_root: '/home/emc17673/src/EMC/'
+  save_ckp: 'model_newdata'
+  save_best_model: 'best_newdata'
+  TensorBoard: 'Summary'
+  log_file: 'file.log'
+
+
+PARAMETERS:
+  # model structure
+  input_modalites: 4
+  output_channels: 5
+  labels: [0, 1, 2, 3, 4]
+  time_step: 6
+  connect: 'normal' #'normal' or 'dense'
+  lstm_convtype: 'cba'
+
+  # model training
+  is_best: False
+  batch_size: 4
+  lr: 0.001 # 0.1 for sgd
+  resume: True
+  patience: 20
+  num_workers: 8
+  early_stop_patience: 30
+  pad_method: 'pad' #pad
+  optimizer: 'adam' #sgd, adam
